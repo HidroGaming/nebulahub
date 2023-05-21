@@ -63,3 +63,4 @@ local btn = tab:AddButton({
 credits:AddLabel("Scripting: ItsHidro#1876")
 credits:AddLabel("UI Lib: shlexware")
 credits:AddLabel("shlexs discord server: discord.gg/sirius")
+credits:AddLabel("All scripts belong to respective owners")
