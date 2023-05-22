@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Script Loader - Blox Fruits", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="Blox Fruits Script Loader"})
+local Window = OrionLib:MakeWindow({Name = "Nebula Hub - Blox Fruits", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="Blox Fruits - Nebula Hub"})
 
 local main = Window:MakeTab({Name = "Main GUIs", Icon = "rbxassetid://4483364243"})
 local mobile = Window:MakeTab({Name = "Mobile GUIs", Icon = "rbxassetid://4506892595"})

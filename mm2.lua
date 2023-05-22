@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Script Loader - Murder Mystery 2", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="MM2 Script Loader"})
+local Window = OrionLib:MakeWindow({Name = "Nebula Hub - Murder Mystery 2", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="MM2 - Nebula Hub"})
 
 local tab = Window:MakeTab({Name = "Main GUIs", Icon = "rbxassetid://4483364243"})
 local credits = Window:MakeTab({Name = "Credits", Icon = "rbxassetid://4503342962"})
