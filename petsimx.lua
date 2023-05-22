@@ -1,9 +1,14 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Nebula Hub - Pet Simulator X", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="Pet Sim X - Nebula Hub"})
-
+OrionLib:MakeNotification({
+	Name = "Nebula Hub",
+	Content = "Pet Simulator X - Nebula Hub Loaded!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
 local tab = Window:MakeTab({Name = "Main GUIs", Icon = "rbxassetid://4483364243"})
 local utility = Window:MakeTab({Name = "Utility", Icon = "rbxassetid://4483364243"})
-local other = Window:MakeTab({Name = "SIde GUIs", Icon = "rbxassetid://4483364243"})
+local other = Window:MakeTab({Name = "Side GUIs", Icon = "rbxassetid://4483364243"})
 local credits = Window:MakeTab({Name = "Credits", Icon = "rbxassetid://4503342962"})
 
 local Button = tab:AddButton({
