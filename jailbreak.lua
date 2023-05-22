@@ -1,11 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Nebula Hub - Jailbreak", HidePremium = true, SaveConfig = false,IntroEnabled = true,IntroText="Jailbreak - Nebula Hub"})
-OrionLib:MakeNotification({
-	Name = "Nebula Hub",
-	Content = "Jailbreak - Nebula Hub Loaded!",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
+
 local tab = Window:MakeTab({Name = "Main GUIs", Icon = "rbxassetid://4483364243"})
 local credits = Window:MakeTab({Name = "Credits", Icon = "rbxassetid://4503342962"})
 
@@ -47,3 +42,9 @@ credits:AddLabel("Scripting: ItsHidro#1876")
 credits:AddLabel("UI Lib: shlexware")
 credits:AddLabel("shlexs discord server: discord.gg/sirius")
 credits:AddLabel("All scripts belong to respective owners")
+OrionLib:MakeNotification({
+	Name = "Nebula Hub",
+	Content = "Jailbreak - Nebula Hub Loaded!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
