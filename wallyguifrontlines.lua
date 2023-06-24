@@ -1,6 +1,7 @@
 --[[
 
   Reupload cause kiriot22 esp lib deleted su used reupload
+  github.com/wally-rblx: original creator
 
 --]]
 
