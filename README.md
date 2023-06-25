@@ -1,5 +1,7 @@
 # Nebula Hub
-A simple script loader/script hub for different roblox games
+A simple script loader/script hub for different Roblox games
+
+If a script doesn't work then open an issue.
 
 ### Script:
 ```lua
@@ -7,4 +9,4 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/HidroGaming/nebulahub/
 
 ```
 ### Important:
-I am not responsible for any bans. GUIs might not be updated and thats not my fault.
+I am not responsible for any bans. GUIs might not be updated and that's not my fault.
