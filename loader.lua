@@ -23,6 +23,7 @@ for ids, url in next, games do
         loadstring(game:HttpGet(url))()
         break
     else
-        Notification.Notify("Nebula Hub", "Game Not Found!","rbxassetid://4483345998")
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/universal.lua")()
+        Notification.Notify("Nebula Hub", "Loading Universal","rbxassetid://4483345998")
     end
 end
