@@ -15,6 +15,7 @@ local games = {
     [{155615604}] = "https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/prisonlife.lua",
     [{7991339063,8588743386,8888615802,8918345380,10726607024,13622981808}] = "https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/rainbowfriends.lua",
     [{4520749081,5931540094,6381829480,6596144663}] = "https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/kl.lua",
+    [{8396586868,9264222904,9432106399,12697622192,10866312598,11216777504,9572329421,9812430518,11287074228}] = "https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/aopg.lua",
 }
 
 for ids, url in next, games do
