@@ -19,7 +19,9 @@ local btn = mainsec:NewButton("Borkware","Borkware",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
 end)
 
-
+local btn = mainsec:NewButton("Hiware","Hiware",function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/HidroGaming/hiware/main/rainbowfriends.lua")()
+end)
 
 credsec:NewLabel("Scripting: ItsHidro#1876")
 credsec:NewLabel("UI Lib: Kavo UI")
