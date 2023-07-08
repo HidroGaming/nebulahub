@@ -26,5 +26,6 @@ for ids, url in next, games do
     else
         loadstring(game:HttpGet"https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/universal.lua")()
         Notification.Notify("Nebula Hub", "Loading Universal","rbxassetid://4483345998")
+        break
     end
 end
