@@ -19,6 +19,10 @@ makebtn(mainsec,"Uzu","Uzu",function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 end)
 
+makebtn(mainsec,"Mukuro Hub","Mukuro Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/quart"))()
+end)
+
 credsec:NewLabel("Scripting: ItsHidro#1876")
 credsec:NewLabel("UI Lib: Kavo UI")
 credsec:NewLabel("All scripts belong to respective owners")
