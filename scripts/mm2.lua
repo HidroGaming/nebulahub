@@ -7,7 +7,7 @@ local credits = Window:MakeTab({Name = "Credits", Icon = "rbxassetid://450334296
 local btn = tab:AddButton({
     Name = "Eclipse Hub (#1)",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/HidroGaming/scriptloader/main/eclipse.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/HidroGaming/nebulahub/main/scripts/eclipse.lua'))()
     end,
 })
 
