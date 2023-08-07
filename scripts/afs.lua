@@ -42,5 +42,3 @@ end)
 credsec:NewLabel("Scripting: ItsHidro#1876")
 credsec:NewLabel("UI Lib: Kavo UI")
 credsec:NewLabel("All scripts belong to respective owners")
-
-Notification.Notify("Nebula Hub", "AFS - Nebula Hub loaded!","rbxassetid://4483345998")
