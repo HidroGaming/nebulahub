@@ -1,4 +1,3 @@
-local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 
 local games = {
@@ -23,7 +22,7 @@ local games = {
 
 for ids, url in next, games do
     if table.find(ids, game.PlaceId) then
-        Notification.Notify("Nebula Hub", "Loading "..GameName,"rbxassetid://4483345998");
+        Notification.Notify("Nebula Hub", "Loading ...","rbxassetid://4483345998");
         loadstring(game:HttpGet(url))()
         break
     end
