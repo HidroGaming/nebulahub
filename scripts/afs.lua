@@ -16,7 +16,7 @@ makebtn(mainsec,"#1 - Platinium Hub (Key)","Has a Key",function()
 end)
 
 makebtn(mainsec,"KJ Hub","KJ Hub",function()
-    loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))()
+    loadstring(game.HttpGet("https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))()
 end)
 
 makebtn(mainsec,"HoHo Hub (Key)","Has a key",function()
