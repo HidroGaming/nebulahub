@@ -1,6 +1,5 @@
-local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Nebula Hub - "..GameName, "Ocean")
+local Window = Library.CreateLib("Nebula Hub - AFS", "Ocean")
 
 function makebtn(sec,name,info,callback)
     sec:NewButton(name,info,callback)
